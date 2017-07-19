@@ -14,3 +14,5 @@
 - Soren
 - Chris
 - James
+- Matt
+- Soy
