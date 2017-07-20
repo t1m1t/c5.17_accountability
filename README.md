@@ -1,7 +1,10 @@
 # c5.17_accountability
 
-### Mentor
+### Producer
 - Eric
+
+### Project Manager
+- Collette
 
 ### SR Devs
 - Tim
