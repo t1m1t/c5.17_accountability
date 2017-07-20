@@ -1,7 +1,6 @@
 <?php
 require("mysql_connect.php");
 
-
 $output = [
     'success'=> false, //we assume we will fail
     'errors'=>[]

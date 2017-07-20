@@ -2,7 +2,6 @@ $(document).ready(function(){
    $("button").click(callBack);
 });
 
-
 function callBack(){
     console.log("hehe xd");
     var values = $("#sign_up_form").serialize();
