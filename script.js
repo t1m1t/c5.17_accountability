@@ -6,8 +6,8 @@ function callBack(){
     console.log("hehe xd");
     var values = $("#sign_up_form").serialize();
     $.ajax({
-        url:"./form.php",
-        method: "post",
+        url:"./update.php",
+        method: "put",
         data: values,
         success: function(result){
             console.log("success: ", typeof(result));
