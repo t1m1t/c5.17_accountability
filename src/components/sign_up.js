@@ -10,6 +10,7 @@ class Sign_Up extends Component {
             form: {
                 first_name: '',
                 last_name: '',
+                tel: '',
                 email: '',
                 password: '',
                 password_conf: '',
@@ -25,6 +26,7 @@ class Sign_Up extends Component {
             form: {
                 first_name: '',
                 last_name: '',
+                tel: '',
                 email: '',
                 password: '',
                 password_conf: '',
@@ -42,7 +44,7 @@ class Sign_Up extends Component {
     }
 
     render() {
-        const {first_name, last_name, email, password, password_conf, date_of_birth} = this.state.form;
+        const {first_name, last_name, tel, email, password, password_conf, date_of_birth} = this.state.form;
         return (
             <div className="signup-page">
                 <h1 className="batsu-title-signup">_Batsu</h1>
@@ -56,6 +58,10 @@ class Sign_Up extends Component {
                     <div>
                         <h6 className="signin-subtitles">Last Name</h6>
                         <input name="last_name" value={last_name} onChange={(event) => this.handleChange(event)}/>
+                    </div>
+                    <div>
+                        <h6 className="signin-subtitles">Phone Number</h6>
+                        <input name="tel" type="number" value={tel} onChange={(event) => this.handleChange(event)}/>
                     </div>
                     <div>
                         <h6 className="signin-subtitles">E-mail Address</h6>
